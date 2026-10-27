@@ -1,0 +1,21 @@
+data/
+node_modules/
+npm-debug.log*
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and backups
+*.sqlite
+*.sqlite3
+*.db
+demo-postgres/local/
+
+# Dependencies and generated files
+**/node_modules/
+npm-debug.log*
+
+# Temporary demo deployment configuration
+/render.yaml

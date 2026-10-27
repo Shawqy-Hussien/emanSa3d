@@ -1,0 +1,19 @@
+{
+  "name": "pharmacy-postgres-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Isolated PostgreSQL-backed demo for the pharmacy dashboard",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node scripts/migrate.js",
+    "import:sqlite": "node scripts/import-sqlite-business-data.js",
+    "bootstrap:demo": "node scripts/bootstrap-demo-accounts.js",
+    "test": "node --test --test-concurrency=1"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}

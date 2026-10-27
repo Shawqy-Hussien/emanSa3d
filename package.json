@@ -1,0 +1,12 @@
+{
+  "name": "pharmacy-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arabic pharmacy management application with a SQLite database",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
